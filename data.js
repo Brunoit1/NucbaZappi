@@ -6,6 +6,7 @@ const productos = [
     price: 3650,
     img: "./assets/imgs/imgpizzas/bennazianna.jfif",
     recomendada: true,
+    popular: false,
     category: "pizzas",
   },
   {
@@ -13,8 +14,9 @@ const productos = [
     name: "Tronco-Pizza",
     description: "Para todo el día",
     price: 870,
-    img: "./assets/imgs/imgpizzas/tronco",
+    img: "./assets/imgs/imgpizzas/",
     recomendada: true,
+    popular: false,
     category: "pizzas",
   },
   {
@@ -24,6 +26,7 @@ const productos = [
     price: 360,
     img: "./assets/imgs/imgpizzas/papitas.jfif",
     recomendada: true,
+    popular: false,
     category: "napapuki",
   },
   {
@@ -104,7 +107,7 @@ const productos = [
     img: "./assets/imgs/imgpizzas/NickGi.jfif",
     recomendada: false,
     popular: true,
-    category: ["pizzas", "populares"],
+    category: "pizzas"
   },
   {
     id: 12,
@@ -113,6 +116,7 @@ const productos = [
     price: 550,
     img: "./assets/imgs/imgHambur/hsimple.png",
     recomendada: false,
+    popular: false,
     category: "hamburguesas",
   },
   {
@@ -122,6 +126,7 @@ const productos = [
     price: 750,
     img: "./assets/imgs/imgHambur/hamburguesahawaiana.jpg",
     recomendada: false,
+    popular: false,
     category: "hamburguesas",
   },
   {
@@ -131,6 +136,7 @@ const productos = [
     price: 650,
     img: "./assets/imgs/imgHambur/hQueso.jpg",
     recomendada: false,
+    popular: false,
     category: "hamburguesas",
   },
   {
@@ -140,6 +146,7 @@ const productos = [
     price: 550,
     img: "./assets/imgs/imgHambur/hAmericana.jpg",
     recomendada: false,
+    popular: false,
     category: "hamburguesas",
   },
   {
@@ -149,6 +156,7 @@ const productos = [
     price: 450,
     img: "./assets/imgs/imgPapas/aLaFrancesa.jpeg",
     recomendada: false,
+    popular: false,
     category: "napapuki",
   },
   {
@@ -158,6 +166,7 @@ const productos = [
     price: 550,
     img: "./assets/imgs/imgPapas/wafles.jpg",
     recomendada: false,
+    popular: false,
     category: "napapuki",
   },
   {
@@ -167,6 +176,7 @@ const productos = [
     price: 650,
     img: "./assets/imgs/imgPapas/alHorno.jpg",
     recomendada: false,
+    popular: false,
     category: "napapuki",
   },
   {
@@ -176,6 +186,7 @@ const productos = [
     price: 850,
     img: "./assets/imgs/imgWraps/wVegetales.jpg",
     recomendada: false,
+    popular: false,
     category: "wraps",
   },
   {
@@ -185,6 +196,7 @@ const productos = [
     price: 850,
     img: "./assets/imgs/imgWraps/wVegetales.jpg",
     recomendada: false,
+    popular: false,
     category: "wraps",
   },
   {
@@ -194,6 +206,7 @@ const productos = [
     price: 950,
     img: "./assets/imgs/imgWraps/wPollo.jpg",
     recomendada: false,
+    popular: false,
     category: "wraps",
   },
   {
@@ -203,6 +216,7 @@ const productos = [
     price: 1050,
     img: "./assets/imgs/imgWraps/wMediterraneo.jpg",
     recomendada: false,
+    popular: false,
     category: "wraps",
   },
   {
@@ -212,6 +226,7 @@ const productos = [
     price: 750,
     img: "./assets/imgs/imgWraps/wDulce.jpg",
     recomendada: false,
+    popular: false,
     category: "wraps",
   },
   {
@@ -221,6 +236,7 @@ const productos = [
     price: 850,
     img: "./assets/imgs/imMex/quesadillas.jpg",
     recomendada: false,
+    popular: false,
     category: "mexican",
   },
   {
@@ -230,6 +246,7 @@ const productos = [
     price: 750,
     img: "./assets/imgs/imMex/tamales.jpeg",
     recomendada: false,
+    popular: false,
     category: "mexican",
   },
   {
@@ -239,6 +256,7 @@ const productos = [
     price: 8950,
     img: "./assets/imgs/imMex/elotes.jpg",
     recomendada: false,
+    popular: false,
     category: "mexican",
   },
   {
@@ -248,6 +266,7 @@ const productos = [
     price: 1050,
     img: "./assets/imgs/imMex/enchiladas.webp",
     recomendada: false,
+    popular: false,
     category: "mexican",
   },
   {
@@ -257,6 +276,7 @@ const productos = [
     price: 1250,
     img: "./assets/imgs/imMex/tacos.jpg",
     recomendada: false,
+    popular: false,
     category: "mexican",
   },
 ];

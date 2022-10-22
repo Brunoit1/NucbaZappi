@@ -7,6 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: sans-serif;
+
 }
 
 html {
@@ -14,7 +15,7 @@ html {
 }
 
 body {
-    width: 100%;
+    
     background: #131415;
 }
 
@@ -184,35 +185,18 @@ p {
     background-clip: text;
 }
 
-.img-cards-r1{
+.img-cards{
     width: 70px;
     height: 70px;
-    background-image: url(./assets/imgs/imgpizzas/bennazianna.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+
     border-radius: 20px;
 }
 
-.img-cards-r2{
-    width: 70px;
-    height: 70px;
-    background-image: url(./assets/imgs/imgpizzas/tronco.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 20px;
+.img-cards img{
+    width: 100%;
+    height: 100%;
 }
 
-.img-cards-r3{
-    width: 70px;
-    height: 70px;
-    background-image: url(./assets/imgs/imgpizzas/papitas.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 20px;
-}
 
 /* Aca comienza la section de Categorias */
 
@@ -261,58 +245,14 @@ p {
     background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     border-radius: 15px;
 }
-.icon-1 {
+.icon{
     width: 80px;
     height: 80px;
-    background-image: url(./assets/imgs/icons/otrapizza.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.icon-2 {
-    width: 60px;
-    height: 60px;
-    background-image: url(./assets/imgs/icons/pizza.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
-.icon-3 {
-    width: 80px;
-    height: 80px;
-    background-image: url(./assets/imgs/icons/burger.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.icon-4 {
-    width: 80px;
-    height: 80px;
-    background-image: url(./assets/imgs/icons/papas.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.icon-5 {
-    width: 80px;
-    height: 80px;
-    background-image: url(./assets/imgs/icons/70578698115b544cbf5926db06990469.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.icon-6 {
-    width: 80px;
-    height: 80px;
-    background-image: url(./assets/imgs/icons/taco.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.icon-7 {
-    width: 80px;
-    height: 80px;
-    background-image: url(./assets/imgs/icons/1d62fda007e4e5b77417b6c611b6d329.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.icon img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Aca comienza la section de populares */
@@ -322,110 +262,8 @@ p {
     left: 190px;
 }
 
-.populares{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-    width: 1300px;
-    gap: 10px;
-}
-
-.cards-p{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
- /*    width: 280px;
-    height: 213px; */
-    background: #252525;
-    border-radius: 15px;
-    padding: 25px;
-    gap: 8px;
-}
-
 #pop-imgs{
     width: 150px;
-    border-radius: 16px;
-}
-
-.img-1{
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/mr-pit.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-2 {
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/Q-Jamone.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-3{
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/Carly.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-4 {
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/bennazianna.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-5 {
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/Picantovich.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-6 {
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/Hasbulla.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-7{
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/Messi.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    border-radius: 16px;
-}
-
-.img-8{
-    width: 240px;
-    height: 100px;
-    background-image: url(./assets/imgs/imgpizzas/NickGi.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
     border-radius: 16px;
 }
 
@@ -496,6 +334,73 @@ footer a{
     border: none;
 }
 
+/***************************************************************************/
+/*seccion populares*/
+
+
+
+.masPopulares{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100%;
+   
+}
+
+.title-products{
+    width: 170px;
+    height: 40px;
+
+}
+
+.tiluloCategoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.populares{
+    margin: 0 auto;
+    max-width: 1235px;
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+
+.img{
+    width: 237px;
+    height: 97px;
+    margin: 0 auto;
+}
+
+.cards-p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    flex-direction: column;
+    width: 282px;
+    height: 213px;
+    background: #252525;
+    border-radius: 15px;
+    padding:0 15px;
+    gap: 7px;
+}
+
+
+
+
+/****************************************/
 .cartContainer {
     top: 0;
     right: 0;
@@ -505,9 +410,7 @@ footer a{
     color: #ffffff;
     background-color: #fb103d;
     display: none;
-   
 }
-
 .cartBase {
     position: relative;
     display: flex;
@@ -517,10 +420,7 @@ footer a{
     gap: 20px;
     padding-top: 50px;
 
-  
 }
-
-
 
 .divider {
     display: flex;
