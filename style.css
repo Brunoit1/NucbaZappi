@@ -409,7 +409,6 @@ footer a{
     height: 891px;
     color: #ffffff;
     background-color: #fb103d;
-    display: none;
 }
 .cartBase {
     position: relative;
@@ -445,3 +444,8 @@ footer a{
     justify-content: space-between;
     width: 80%;
 }
+
+.hidden {
+    display: none;
+}
+

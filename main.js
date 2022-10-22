@@ -5,8 +5,11 @@ const recomendaciones = document.querySelector(".recomendaciones");
 const titleProducts = document.querySelector(".title-products");
 const populares = document.querySelector(".populares");
 // Carrito
+const cartContainer = document.querySelector(".cartContainer")
 const cartMenu = document.querySelector(".cartBase");
 const btnAdd = document.querySelector(".btns-add");
+const cartOpen = document.querySelector(".cartIcon");
+const cartX = document.querySelector(".x");
 //categorias
 const categorias = document.querySelector(".categorias");
 // LocalStorage
@@ -17,7 +20,7 @@ const saveLocalStorage = (cartList) => {
 };
 
 
-// reder titulo de categoria
+// render titulo de categoria
 
 const renderTitulo = (producto = undefined) => {
   if (!producto){
@@ -104,10 +107,23 @@ const applyFilter = (e) => {
   }
 };
 
+const closeCart = () => {
+  cartContainer.classList.add('hidden');
+};
+
+
+
+const openCart = () => {
+  cartContainer.classList.remove('hidden');
+};
+
+
 
 const init = () => {
   DecidirRenderProducts();
   categorias.addEventListener("click", applyFilter);
+  cartOpen.addEventListener("click", openCart);
+  cartX.addEventListener("click", closeCart);
 }
 
 init()
