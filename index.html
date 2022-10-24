@@ -22,34 +22,28 @@
                     <li class="cartIcon"><a href="#shop"><i class="fa-solid fa-cart-shopping"></i></a></li>
                     <li><a href="#user"><i class="fa-solid fa-user"></i></a></li>
                 </ul>
-                
+        <!--carrito de compras-->        
         <section class="cartContainer hidden">
-
-                    <div class="x">X</div>
-    
+            <div class="cerrarCarrito x">X</div>    
             <div class="cartBase">
+                <h3>Tus Productos</h3>   
+                <div  id="" class="cartMenu"> <!--aca se renderizan los objetos -->
 
-                <h3>Tus Productos</h3>
-    
-                <div class="cartMenu"></div>
 
+                </div>
                 <div class="subto space">
                     <h4>Subtotal:</h4>
-                    <h4></h4>
-                </div>
-    
+                    <h4 id="subtotal"></h4>
+                </div>    
                 <div class="envio space">
                     <h4>Envio:</h4>
-                    <h4></h4>
-                </div>
-                
+                    <h4>Gratis</h4>
+                </div>               
                 <hr class="divider">
-     
                 <div class="precio space">
                     <span>Total:</span>
-                    <span>$0.00</span>
-                </div>
-            
+                    <span id="precioTotal">$0.00</span>
+                </div> 
                 <button class="btns-add-cart">Continuar</button>
          
             </div>
@@ -115,7 +109,8 @@
                 </div>
                 <div class="cards-c" data-category="pizzas">
                     <div class="icon"><img src="./assets/imgs/icons/pizza.png" alt=""></div>
-                    <a href>Pizza</a>
+                    <a href="">Pizza</a>
+                    
                     <span></span>
                 </div>
                 <div class="cards-c" data-category="hamburguesas">
@@ -150,7 +145,8 @@
             <h2 id="title-products" class="title-products"> </h2>
             <div id="populares" class="populares">
 
-        </section>
+            </div>
+        </div>   
         
     </main>
 <!-- Footer -->
